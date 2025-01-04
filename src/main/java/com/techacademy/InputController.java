@@ -28,5 +28,4 @@ public class InputController {
 		return "output";
 	}
 
-
 }
