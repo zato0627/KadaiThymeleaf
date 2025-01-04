@@ -12,7 +12,7 @@
 	<p th:unless="${previous} == null" ></p>
 	<form method="post" action="/output">
 		<input type="text" name="val">
-		<button type="submit">送信</button>
+		<button type="submit" th:text="#{button}">送信</button>
 	</form>
 </body>
 </html>
